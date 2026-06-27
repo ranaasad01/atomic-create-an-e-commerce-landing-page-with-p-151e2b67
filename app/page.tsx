@@ -828,7 +828,7 @@ export default function HomePage() {
                     />
                   ))}
                 </div>
-                <p className="text-[#1a1a1a]/75 text-sm leading-relaxed mb-6 text-pretty" style={{ fontSize: "18px", color: "#d62e2e" }}>
+                <p className="text-[#1a1a1a]/75 text-sm leading-relaxed mb-6 text-pretty" style={{ fontSize: "18px", color: "#0e0101" }}>
                   &ldquo;{t.text}&rdquo;
                 </p>
                 <div className="flex items-center gap-3 pt-5 border-t border-[#1a1a1a]/8">
