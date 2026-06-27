@@ -656,7 +656,7 @@ export default function HomePage() {
                     <h3 className="font-semibold text-white text-base mb-1.5">
                       {vp.title}
                     </h3>
-                    <p className="text-white/50 text-sm leading-relaxed">
+                    <p className="text-white/50 text-sm leading-relaxed" style={vp.description === "Complimentary delivery on all domestic orders above $75. Tracked from our studio to your door." ? { color: "#df0c0c" } : undefined}>
                       {vp.description}
                     </p>
                   </div>
