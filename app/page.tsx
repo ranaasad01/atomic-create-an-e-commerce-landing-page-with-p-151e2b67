@@ -828,7 +828,7 @@ export default function HomePage() {
                     />
                   ))}
                 </div>
-                <p className="text-[#1a1a1a]/75 text-sm leading-relaxed mb-6 text-pretty" style={{ color: "#0e0101", fontSize: "14px" }}>
+                <p className="text-[#1a1a1a]/75 text-sm leading-relaxed mb-6 text-pretty" style={t.text === "The pour-over set completely changed my morning routine. The quality is exceptional — it feels like something you'd find in a boutique in Copenhagen." ? { color: "#0e0101", fontSize: "18px" } : undefined}>
                   &ldquo;{t.text}&rdquo;
                 </p>
                 <div className="flex items-center gap-3 pt-5 border-t border-[#1a1a1a]/8">
